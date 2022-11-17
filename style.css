@@ -1,0 +1,85 @@
+* {
+    /* background: rgb(4, 14, 30) url(hero-glow.svg); */
+    /* background-position: 100%; */
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(4, 14, 30) url(hero-glow.svg);
+    background-position: 45%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.nav-bar a {
+    color: aliceblue;
+    padding: 1em;
+    text-decoration: none;
+}
+
+
+.mid-button a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.mid-button p{
+    color: gray;
+}
+
+.main-container {
+    display: flex;
+}
+
+.mid-button {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 125%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.mid-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+}
+
+.mid-text {
+    color: aliceblue;
+}
+
+.main-container2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mid-text h1 {
+    font-size: 65px;
+    width: 7em;
+}
+
+.mid-text h2 {
+    font-size: 26px;
+    color: gray;
+}
+
+.video video {
+    border-radius: 150px;
+}
